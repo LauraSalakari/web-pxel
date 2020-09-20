@@ -1,0 +1,31 @@
+<link rel="stylesheet" type="text/css" href="Index.css">
+
+<body>
+    <input type="color" id="color" value="#000000">
+    <button onclick="Erase()" id="eraseButton"> 
+        Erase 
+    </button>
+    <button onclick="Clear()" id="clearButton">
+        Clear
+    </button>
+    <button onclick="SquareBrush()" id="squareButton">
+        3x3
+    </button>
+    <button onclick="Dither()" id="ditherButton">
+        Dither
+    </button>
+
+    <div id="pixelsContainer">
+
+    </div>
+
+    <div id="canvasDetails">
+        <label>Canvas size</label>
+        <input type="number" id="heightInput" class="canvasInput">
+        <label> x </label>
+        <input type="number" id="widthInput" class="canvasInput">
+        <button onclick="CreateCanvas()">OK</button>
+    </div>
+</body>
+
+<script src="Index.js"></script>
