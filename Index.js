@@ -1,5 +1,3 @@
-// hello this is panda
-
 var arrays = [];
 
 var mouseDown = false;
