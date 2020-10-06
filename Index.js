@@ -1,3 +1,5 @@
+// hello is this bear
+
 var arrays = [];
 
 var mouseDown = false;
